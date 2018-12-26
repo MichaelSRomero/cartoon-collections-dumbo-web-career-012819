@@ -8,7 +8,7 @@ end
 
 def summon_captain_planet(planeteers)
   planeteers.collect do |call| 
-    call.upcase + "!"
+    call.capitalize + "!"
   end
 end
 
